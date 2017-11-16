@@ -1,0 +1,60 @@
+#sidebar {
+    position:absolute;
+    width:21%;
+    height:100%;
+    background-color: lightblue;
+    padding: 25px;
+}
+
+#content { 
+    margin-left: 25%;
+    height:1000px;
+    background-color: lightgrey;
+    padding: 25px;
+}
+
+body {
+    margin:0;
+    padding: 0;
+    font-family: 'Roboto', sans-serif;
+}
+
+h2 {
+  font-size: 20px;
+}
+
+#openButton {
+  background-color: Transparent;
+  border: none;
+  cursor:pointer;
+  overflow: hidden;
+  outline:none;
+  font-size: 30px;
+  display: inline;
+}
+
+#closeButton {
+  background-color: Transparent;
+  border: none;
+  cursor:pointer;
+  overflow: hidden;
+  outline:none;
+  font-size: 30px;
+  float: right;
+}
+
+.submitButton {
+  font-size: 16px;
+}
+
+.destination {
+  font-size: 16px;
+}
+
+.departureDate {
+  font-size: 15px;
+}
+
+.returnDate {
+  font-size: 15px;
+}
