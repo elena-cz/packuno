@@ -67,6 +67,21 @@
 /* 0 */
 /***/ (function(module, exports, __webpack_require__) {
 
+<<<<<<< HEAD
+=======
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+/***/ 325:
+/***/ (function(module, exports) {
+=======
+var global = __webpack_require__(2);
+var core = __webpack_require__(27);
+var hide = __webpack_require__(16);
+var redefine = __webpack_require__(17);
+var ctx = __webpack_require__(23);
+=======
+>>>>>>> completed static mockup of dashboard
 var global = __webpack_require__(6);
 var core = __webpack_require__(42);
 var hide = __webpack_require__(30);
@@ -104906,4 +104921,19 @@ var seedState = {
 exports.default = seedState;
 
 /***/ })
+<<<<<<< HEAD
 /******/ ]);
+=======
+/******/ ]);
+>>>>>>> Moved Dashboard code to Dashboard component file
+=======
+/***/ 325:
+/***/ (function(module, exports) {
+
+throw new Error("Module build failed: SyntaxError: Unexpected token (1:1)\n\n\u001b[0m\u001b[31m\u001b[1m>\u001b[22m\u001b[39m\u001b[90m 1 | \u001b[39m\u001b[33m<<\u001b[39m\u001b[33m<<\u001b[39m\u001b[33m<<\u001b[39m\u001b[33m<\u001b[39m \u001b[33mHEAD\u001b[39m\n \u001b[90m   | \u001b[39m \u001b[31m\u001b[1m^\u001b[22m\u001b[39m\n \u001b[90m 2 | \u001b[39m\u001b[36mimport\u001b[39m \u001b[32m'babel-polyfill'\u001b[39m\u001b[33m;\u001b[39m\n \u001b[90m 3 | \u001b[39m\u001b[36mimport\u001b[39m \u001b[33mReact\u001b[39m from \u001b[32m'react'\u001b[39m\u001b[33m;\u001b[39m\n \u001b[90m 4 | \u001b[39m\u001b[36mimport\u001b[39m { render } from \u001b[32m'react-dom'\u001b[39m\u001b[33m;\u001b[39m\u001b[0m\n");
+
+/***/ })
+
+/******/ });
+>>>>>>> completed static mockup of dashboard
+>>>>>>> completed static mockup of dashboard
