@@ -4,6 +4,7 @@ const path = require('path');
 // FILL IN DATABASE FILE --> const database = require(../database/index.js);
 
 const app = express();
+
 app.use(express.static(path.join(__dirname, '/../client/dist')));
 
 app.get('/*', (req, res) => {
