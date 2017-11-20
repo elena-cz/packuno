@@ -12,7 +12,6 @@ import Dashboard from './components/Dashboard.component';
 import Weather from './containers/Weather.container';
 
 
-
 let store = createStore(
   reducer,
   seedState,
