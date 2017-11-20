@@ -26,7 +26,7 @@ render(
 
         <ul>
           <li><Link to="/">Home</Link></li>
-          <li><Link to="/dashboard">Topics</Link></li>
+          <li><Link to="/dashboard">Dashboard</Link></li>
           <li><Link to="/trip">Trip</Link></li>
           <li><Link to="/weather">Weather</Link></li>
         </ul>

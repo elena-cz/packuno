@@ -7746,7 +7746,7 @@ window.store = store;
           _react2.default.createElement(
             _reactRouterDom.Link,
             { to: '/dashboard' },
-            'Topics'
+            'Dashboard'
           )
         ),
         _react2.default.createElement(
