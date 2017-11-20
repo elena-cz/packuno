@@ -12,6 +12,11 @@ module.exports = {
   watch: true,
   resolve: {
     extensions: ['.js', '.jsx']
+  node: {
+    console: true,
+    fs: 'empty',
+    net: 'empty',
+    tls: 'empty',
   },
   resolve: {
     extensions: ['.js', '.jsx']
@@ -28,12 +33,6 @@ module.exports = {
       },
       { test: /\.json$/, loader: 'json-loader' },
     ],
-  },
-  node: {
-    console: true,
-    fs: 'empty',
-    net: 'empty',
-    tls: 'empty',
   },
 };
 
