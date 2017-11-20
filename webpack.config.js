@@ -16,6 +16,9 @@ module.exports = {
     net: 'empty',
     tls: 'empty',
   },
+  resolve: {
+    extensions: ['.js', '.jsx']
+  },
   module: {
     loaders: [
       {
@@ -28,9 +31,6 @@ module.exports = {
       },
     ],
   },
- //  resolve: {
- //    extensions: ['.js', '.jsx']
- // },
 };
 
 
