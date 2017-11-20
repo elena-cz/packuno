@@ -11,12 +11,8 @@ import Dashboard from './components/Dashboard.component.jsx';
 import Weather from './containers/Weather.container.jsx';
 
 
-
 let store = createStore(packunoApp);
 window.store = store;
-
-
-
 
 
 render(
