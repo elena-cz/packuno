@@ -11,6 +11,7 @@ import Dashboard from './components/Dashboard.component';
 import Weather from './containers/Weather.container';
 
 
+
 let store = createStore(packunoApp);
 window.store = store;
 
@@ -27,7 +28,7 @@ render(
           <li><Link to="/weather">Weather</Link></li>
         </ul>
 
-        <hr/>
+        <hr />
 
         <Route path="/" component={App} />
         <Route path="/dashboard" component={Dashboard} />
