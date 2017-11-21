@@ -15,7 +15,7 @@
 
 body {
     margin:0;
-    padding: 0;
+    padding: 20px;
     font-family: 'Roboto', sans-serif;
 }
 
@@ -58,3 +58,4 @@ h2 {
 .returnDate {
   font-size: 15px;
 }
+
